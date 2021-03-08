@@ -1,0 +1,96 @@
+body {
+  color: #D3E7EE;
+  background-color: #262626;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+header{
+font-weight: bold;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0px;
+}
+
+h1{
+  margin: 0px;
+  margin-left: 10px;
+  float: left;
+}
+
+nav {
+  margin: 15px;
+  float: right;
+}
+
+nav ul{
+  list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+  float: right;
+  display: block;
+}
+
+nav li{
+  transition: 0.7s;
+  display: inline;
+  padding: 10px;
+  background-color: #262626;
+}
+
+nav li:hover{
+  transition: 0.7s;
+  background-color: #333;
+}
+
+nav li a{
+  transition: 0.5s;
+  color: #D3E7EE;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav li a:link nav li a:visited{
+  color: #D3E7EE;
+}
+
+nav li a:hover{
+  transition: 0.5s;
+  color: hotpink;
+  text-decoration: none;
+}
+
+nav li a:active{
+  color: #D3E7EE;
+}
+
+p {
+  padding-top:15%;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+button {
+  transition: 0.5s;
+  background-color: #333;
+  color: #D3E7EE;
+  border: none;
+  padding: 1% 2.5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+
+button:hover {
+  transition: 0.5s;
+  background-color: #262626;
+  color: hotpink;
+}
+
+input{
+  padding: 1%;
+}
